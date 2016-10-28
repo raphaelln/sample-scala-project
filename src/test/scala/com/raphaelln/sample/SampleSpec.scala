@@ -1,7 +1,9 @@
 package com.raphaelln.sample
 
-import org.scalatest.FunSuite
 import org.scalatest.BeforeAndAfter
+import org.scalatest.FunSuite
+import com.raphaelln.sample.component.SampleComponent
+import com.raphaelln.sample.component.SampleComponentImpl
 
 class SampleSpec extends FunSuite with BeforeAndAfter {
   
@@ -9,7 +11,7 @@ class SampleSpec extends FunSuite with BeforeAndAfter {
   var component:SampleComponent = _
   
   before {
-    component = new SampleComponentImpl
+    component = new SampleComponentImpl()
   }
   
   test("average is 3") {

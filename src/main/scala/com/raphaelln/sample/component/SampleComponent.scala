@@ -1,6 +1,4 @@
-package com.raphaelln.sample
-
-import org.slf4j.LoggerFactory
+package com.raphaelln.sample.component
 
 trait SampleComponent  {
   

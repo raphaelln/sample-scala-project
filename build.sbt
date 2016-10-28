@@ -5,8 +5,8 @@ name := "simple-project"
 scalaVersion := "2.10.6"
 
 libraryDependencies ++= Seq(  
-  "org.slf4j"           % "slf4j-api"               % "1.7.12",
-  "log4j"               % "log4j"                   % "1.2.17"  
+  "org.slf4j"           % "slf4j-api"               % "1.7.21",
+  "org.slf4j"           % "slf4j-simple"            % "1.7.7"  
 )
 
 // Test deps
