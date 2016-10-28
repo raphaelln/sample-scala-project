@@ -3,6 +3,11 @@
 
 # sbt specific
 .cache
+.cache-main
+.cache-tests
+.classpath
+.project
+.settings/
 .history
 .lib/
 dist/*
